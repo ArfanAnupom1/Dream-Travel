@@ -1,0 +1,354 @@
+.nav {
+    margin-top: 60px;
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.navicon ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Home {
+    color: #FF5400;
+}
+
+.custom-image {
+    max-width: 100%;
+    height: 70vh;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    background-size: 100%;
+}
+
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.overlay-text h3 {
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 64px;
+
+    font-weight: 800;
+
+}
+
+.banner-description {
+    width: 676px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 76.5vh;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px 150px 0;
+}
+
+.form {
+    display: inline-flex;
+    padding: 16px;
+
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.text {
+    width: 174px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-color: white;
+    background: #FFF;
+    padding-left: 16px;
+}
+
+.text {
+    color: rgba(19, 19, 24, 0.50);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-color: #FF5400;
+    background: #FF5400;
+    padding-left: 35px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.description-text-h {
+    color: #131318;
+
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.description-text-p {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+.ltext {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.btn1 {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border-color: #FF5400;
+    color: #FFF;
+    margin-top: 34px;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+@media screen and (max-width:600px) {
+    header body footer {
+        width: 375px;
+
+    }
+
+    .nav {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+
+    .icon {
+        margin-top: 35px;
+    }
+
+    .banner {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-title {
+        color: #FFF;
+        font-size: 22px;
+    }
+
+    .banner-description {
+        Max-width: 304px;
+
+
+
+        font-size: 14px;
+
+        font-weight: 400;
+        line-height: 21px;
+
+    }
+
+    .banner {
+
+        width: 360px;
+        height: 500px;
+    }
+
+    .text {
+        width: 255px;
+        height: 52px;
+    }
+
+    .company-name {
+        font-size: 21.543px;
+    }
+
+    .company-name img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 280px;
+        height: 52px;
+        padding-left: 70PX;
+    }
+
+    .navicon ul {
+        display: none;
+        /* Hide the list by default on small screens */
+    }
+
+    .navicon .icon {
+        display: block;
+        /* Show the icon on small screens */
+    }
+
+    .Description {
+        flex-direction: column;
+        margin: 20px;
+
+    }
+
+    .description-text-h {
+        font-size: 20px;
+    }
+
+    .description-text-p {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .ltext {
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+
+    }
+
+    .btn1 {
+        margin-bottom: 24px;
+    }
+
+    .img1 {
+        width: 335px;
+        height: 342px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+    .navicon .icon {
+        display: none;
+        /* Hide the icon on larger screens */
+    }
+}
