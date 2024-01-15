@@ -227,11 +227,101 @@ nav a {
 }
 
 
-@media screen and (max-width:600px) {
-    header body footer {
-        width: 375px;
+.destination img {
+    width: 100%;
+}
 
-    }
+.dtext {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.ptext {
+
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.destination {
+    margin-top: 48px;
+    margin-left: 150px;
+    margin-right: 350px;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 img,
+.row3 img {
+    width: 130%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.big img {
+    width: 130%;
+    height: 286px;
+}
+
+.big {
+    margin-left: -150px;
+}
+
+.row2 {
+    margin-right: -50px;
+    margin-bottom: 30px;
+}
+
+.big2 img {
+    width: 150%;
+    height: 286px;
+}
+
+.centered {
+    position: relative;
+    text-align: center;
+}
+
+.centered h3 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.destination h3 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+@media screen and (max-width:600px) {
 
     .nav {
         margin-left: 20px;
@@ -298,12 +388,12 @@ nav a {
 
     .navicon ul {
         display: none;
-        /* Hide the list by default on small screens */
+
     }
 
     .navicon .icon {
         display: block;
-        /* Show the icon on small screens */
+
     }
 
     .Description {
@@ -344,11 +434,57 @@ nav a {
         height: 342px;
     }
 
+    .destination {
+        margin-top: 48px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .row1 img,
+    .row3 img,
+    .row2 img,
+    .big img,
+    .big2 img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .big,
+    .big2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row2 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .centered h3 {
+        left: 50%;
+        transform: translateX(-50%);/
+    }
+
+    .big2 img {
+        width: 355px;
+        
+        object-fit: contain;
+    }
 }
 
 @media only screen and (min-width: 601px) {
     .navicon .icon {
         display: none;
-        /* Hide the icon on larger screens */
+
     }
 }
