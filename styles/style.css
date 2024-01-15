@@ -318,7 +318,256 @@ nav a {
     line-height: normal;
 }
 
+.block2 {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 160px;
+    margin-right: 135px;
 
+}
+
+.block2-1 {
+    width: 670px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 70px;
+    padding: 32px;
+}
+
+.block-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.block-dis {
+
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.block2-2 {
+    width: 670px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.block1 {
+    width: 573px;
+    height: 240px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    margin-top: 34px;
+    margin-left: 620px;
+}
+
+.headc {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.block-disc {
+
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.card1,
+.card2 {
+    position: relative;
+    margin-top: 48px;
+    margin-left: 150px;
+}
+
+.card1img {
+    width: 90%;
+}
+
+.card2 .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+}
+
+.overlay-content {
+    width: 650px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+
+    background: rgba(255, 255, 255, 0.80);
+
+    backdrop-filter: blur(2.5px);
+    padding: 80px;
+}
+
+.many {
+    margin-bottom: 26px;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 700px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+}
+
+.many,
+.dealh,
+.dealtext,
+.dealprice,
+.btn-pry {
+    margin: 10px;
+
+}
+
+
+.list {
+    display: flex;
+
+}
+
+.list li {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.dealh {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+.dealtext {
+    width: 452px;
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 18px;
+
+}
+
+.dealprice {
+    color: #FF5400;
+
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.btn-pry {
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border-color: #FF5400;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.many {
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list li {
+    margin-right: 50px;
+    margin-left: -30px;
+}
+
+.deals-dis {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-dis {
+
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
 
 
 @media screen and (max-width:600px) {
@@ -453,12 +702,15 @@ nav a {
     .row2 img,
     .big img,
     .big2 img {
-        width: 100%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
 
+        margin-bottom: 10px;
+        width: 335px;
+        height: 176px;
+        object-fit: cover;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    
     .big,
     .big2 {
         margin-left: 0;
@@ -477,9 +729,132 @@ nav a {
 
     .big2 img {
         width: 355px;
-        
+
         object-fit: contain;
     }
+
+    .block2 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .block2-1 {
+        width: 300px;
+        height: 289px;
+        margin-bottom: 30PX;
+    }
+
+    .block2-2 {
+        width: 300px;
+        height: 289px;
+    }
+
+    .block1 {
+        width: 300px;
+        height: 289px;
+        margin-left: 20PX;
+        margin-right: 20PX;
+    }
+
+
+    .card1img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .overlay-content {
+        margin-left: 15px;
+        margin-top: 145px;
+    }
+
+    .card2 .overlay-content {
+        margin-left: 15px;
+
+        margin-top: 145px;
+    }
+
+    .dealh {
+        color: #131318;
+
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+    }
+
+    .dealtext {
+        width: 254px;
+        color: #5A5A5D;
+
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .dealprice {
+        width: 254px;
+        color: #5A5A5D;
+
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .btn-pry {
+        width: 130px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .card1img {
+        width: 335px;
+        height: 580px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .overlay-content {
+        width: 290px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+
+        background: rgba(255, 255, 255, 0.80);
+
+        backdrop-filter: blur(2.5px);
+        padding: 5px;
+        margin-bottom: -56px;
+
+    }
+
+    .deals {
+        margin-left: -120px;
+    }
+
 }
 
 @media only screen and (min-width: 601px) {
