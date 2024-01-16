@@ -881,6 +881,201 @@ footer {
     margin-top: 50PX;
 }
 
+.step {
+    display: flex;
+    align-items: center;
+}
+
+.step div:first-child {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.step svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.step div:last-child {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.step p {
+    margin: 0px;
+}
+
+.step {
+    margin-top: 20px;
+}
+
+.Bookimg ul {
+    display: flex;
+    align-items: center;
+}
+
+.Bookimg li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Book {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.booktitle {
+    color: var(--TEXT-CLR, #5E6282);
+
+    font-family: Mulish;
+    font-size: 23.942px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+
+}
+
+.bookheading {
+    width: 640px;
+    color: var(--3rd, #14183E);
+    font-family: Mulish;
+    font-size: 66.506px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+
+}
+
+.bookch {
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Mulish;
+    font-size: 21.282px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+
+
+}
+
+.bookcp {
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Mulish;
+    font-size: 21.282px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    /* 26.496px */
+}
+
+.bookingimg {
+    width: 100%;
+    padding: 10px;
+    padding-right: 100px;
+    object-fit: cover;
+    width: 580px;
+    height: 300px;
+
+    border-radius: 30px;
+
+}
+
+.Bookimg {
+    width: 600px;
+    height: 532.049px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2.463px 4.187px 0px rgba(0, 0, 0, 0.00), 0px 10.838px 8.67px 0px rgba(0, 0, 0, 0.01), 0px 26.602px 17.292px 0px rgba(0, 0, 0, 0.01), 0px 51.234px 33.893px 0px rgba(0, 0, 0, 0.01), 0px 86.212px 62.319px 0px rgba(0, 0, 0, 0.02), 0px 133.012px 106.41px 0px rgba(0, 0, 0, 0.02);
+    margin-top: 100px;
+    position: relative;
+}
+
+.Bookimgh {
+    color: var(--black, #080809);
+    font-family: Mulish;
+    font-size: 23.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+
+    letter-spacing: 0.359px;
+    padding-left: 30px;
+}
+
+.Bookimgp {
+    color: var(--text-2, #84829A);
+    font-family: Mulish;
+    font-size: 21.282px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -0.106px;
+    padding-left: 30px;
+}
+
+.rome {
+    width: 98.429px;
+    height: 87.788px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ongoingh {
+    color: var(--text-2, #84829A);
+    font-family: Mulish;
+    font-size: 18.622px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+
+    letter-spacing: -0.652px;
+}
+
+.ongoingp {
+    color: var(--black, #080809);
+    font-family: Mulish;
+    font-size: 23.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    /* 29.808px */
+    letter-spacing: -0.359px;
+}
+
+.ongoing {
+    position: absolute;
+    display: flex;
+    width: 360.822px;
+    height: 180.586px;
+    flex-shrink: 0;
+    border-radius: 23.942px;
+    background: aliceblue;
+    box-shadow: 0px 2.463px 4.187px 0px rgba(0, 0, 0, 0.00), 0px 10.838px 8.67px 0px rgba(0, 0, 0, 0.01), 0px 26.602px 17.292px 0px rgba(0, 0, 0, 0.01), 0px 51.234px 33.893px 0px rgba(0, 0, 0, 0.01), 0px 86.212px 62.319px 0px rgba(0, 0, 0, 0.02), 0px 133.012px 106.41px 0px rgba(0, 0, 0, 0.02);
+    margin-top: -320px;
+    margin-left: 380px;
+}
+
+.onegoingspan {
+    color: var(--black, #080809);
+    font-family: Mulish;
+    font-size: 18.622px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: -1.024px;
+}
+span{
+    color:  #8A79DF;
+}
 @media screen and (max-width:600px) {
 
     .nav {
@@ -1361,6 +1556,28 @@ footer {
 
     .icon4 {
         margin-bottom: 5px;
+    }
+    .Book{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .bookheading{
+        font-size: 34px;
+        width: 450px;
+    }
+    .Bookimg{
+        width: 400px;
+        margin-top: 250px;
+    }
+    .bookingimg{
+        width: 90%;
+        object-fit: cover;
+    }
+    .ongoing{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: -750px;
+        
     }
 }
 
