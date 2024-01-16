@@ -90,7 +90,7 @@ nav a {
 }
 
 .banner-description {
-    width: 676px;
+
     color: #FFF;
 
     text-align: center;
@@ -1073,9 +1073,11 @@ footer {
     line-height: 124.5%;
     letter-spacing: -1.024px;
 }
-span{
-    color:  #8A79DF;
+
+span {
+    color: #8A79DF;
 }
+
 @media screen and (max-width:600px) {
 
     .nav {
@@ -1557,27 +1559,36 @@ span{
     .icon4 {
         margin-bottom: 5px;
     }
-    .Book{
+
+    .Book {
         flex-direction: column;
         margin: 10px;
     }
-    .bookheading{
+
+    .bookheading {
         font-size: 34px;
         width: 450px;
     }
-    .Bookimg{
+
+    .Bookimg {
         width: 400px;
         margin-top: 250px;
     }
-    .bookingimg{
+
+    .bookingimg {
         width: 90%;
         object-fit: cover;
     }
-    .ongoing{
+
+    .ongoing {
         position: absolute;
         margin-left: 10px;
         margin-top: -750px;
-        
+
+    }
+
+    .btn-pry {
+        padding-top: 0px;
     }
 }
 
